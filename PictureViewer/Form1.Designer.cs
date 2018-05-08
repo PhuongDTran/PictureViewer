@@ -104,7 +104,7 @@
             this.showButton.TabIndex = 0;
             this.showButton.Text = "Show a picture";
             this.showButton.UseVisualStyleBackColor = true;
-            this.showButton.Enter += new System.EventHandler(this.showButton_Enter);
+            this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // clearButton
             // 
